@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { removeFromCart, increaseQuantity, decreaseQuantity } from '../../redux/slice/CartSlice';
 import { Navbar } from '../../components/Navbar';
 import './Cart.css';
-
+//hhhh
 export const Cart = () => {
     const cartItems = useSelector(state => state.cart.cartItems);
     const dispatch = useDispatch();
